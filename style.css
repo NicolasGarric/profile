@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body {
+  background-color: #f1f5f5;
+  font-family: Quicksand;
+  color: #a4c3b2;
+  font-size: 16px;
+  /* line-height: 8px; */
+}
+
+h1, h2, h3 {
+  color: #6b9080;
+  font-family: Quicksand;
+  font-size: 24px;
+  line-height: 8px;
+}
+
+a {
+  color: #a4c3b2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+.container {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+background-color: #f6fff8;
+margin: 16px;
+padding: 16px;
+/* border: 2px solid #6b9080; */
+border-radius: 6px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
